@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #0d0221 0%, #1a1a6e 100%);
+    color:white;
+}
+.navbar {
+    background: linear-gradient(90deg, #1a1a6e 0%, #4361ee 100%) !important;
+    color:white;
+}
+.profile-title {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.profile-photo {
+    display: block;
+    margin: 1rem auto;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #1cbdfc;
+}
+
+.profile-name {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.profile-paragraph {
+    text-align: center;
+    margin: 0.25rem 0;
+}
